@@ -1,0 +1,59 @@
+{
+  "mod_elements": [
+    {
+      "name": "GalacticFactoryCore",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galactic_factory_core"
+    },
+    {
+      "name": "GalacticCrown",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galactic_crown",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
+      "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
+      "itemGroup.tabgalactic_factory_core": "GalacticFactory Core",
+      "item.galacticfactorycore.galactic_crown_leggings": "Galactic Crown Leggings",
+      "item.galacticfactorycore.galactic_crown_helmet": "Galactic Crown"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "galacticfactorycore",
+    "modName": "GalacticFactoryCore",
+    "version": "1.0.0",
+    "author": "seasw, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.galacticfactorycore",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "GalacticFactory Core",
+    "icon": {
+      "value": "Items.END_CRYSTAL"
+    },
+    "showSearch": false
+  }
+}
