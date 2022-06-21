@@ -8,13 +8,13 @@
   ],
   "key": {
     "0": {
-      "item": "mekanism:pellet_antimatter"
+      "item": "galacticfactorycore:populated_antimatter_casing"
     },
     "1": {
       "item": "draconicevolution:chaotic_core"
     },
     "2": {
-      "item": "mekanism:pellet_antimatter"
+      "item": "galacticfactorycore:populated_antimatter_casing"
     },
     "3": {
       "item": "draconicevolution:chaotic_core"
@@ -26,13 +26,13 @@
       "item": "draconicevolution:chaotic_core"
     },
     "6": {
-      "item": "mekanism:pellet_antimatter"
+      "item": "galacticfactorycore:populated_antimatter_casing"
     },
     "7": {
       "item": "draconicevolution:chaotic_core"
     },
     "8": {
-      "item": "mekanism:pellet_antimatter"
+      "item": "galacticfactorycore:populated_antimatter_casing"
     }
   },
   "result": {
