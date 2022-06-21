@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "placeholder",
+    "texture": "populatedcasing",
     "customModelName": "Normal",
     "name": "Populated Antimatter Casing",
     "rarity": "EPIC",
