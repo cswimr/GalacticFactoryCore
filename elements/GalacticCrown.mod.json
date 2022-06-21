@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "diamond_helmet",
+    "textureHelmet": "galacticcrownitemtexture",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -42,14 +42,14 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 25,
-    "damageValueHelmet": 0,
+    "maxDamage": 0,
+    "damageValueHelmet": 3,
     "damageValueBody": 0,
     "damageValueLeggings": 0,
-    "damageValueBoots": 2,
+    "damageValueBoots": 0,
     "enchantability": 0,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": "item.armor.equip_diamond"
     },
