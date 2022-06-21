@@ -59,7 +59,7 @@ public class ORPHANOBLITERATORItem extends GalacticfactorycoreModElements.ModEle
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("HAHA  Pan Go Brrrrrrrrrrrrrrr"));
+				list.add(new StringTextComponent("Obliterating Orphans since 2022"));
 			}
 
 			@Override
