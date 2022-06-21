@@ -1,0 +1,29 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pan",
+    "customModelName": "Normal",
+    "name": "ORPHANOBLITERATOR",
+    "specialInfo": [
+      "HAHA  Pan Go Brrrrrrrrrrrrrrr"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:GalacticFactoryCore"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 10.0,
+    "enchantability": 0,
+    "damageVsEntity": 99999.0,
+    "usageCount": 99999,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
