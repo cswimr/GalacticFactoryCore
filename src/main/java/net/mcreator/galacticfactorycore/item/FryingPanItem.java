@@ -57,7 +57,7 @@ public class FryingPanItem extends GalacticfactorycoreModElements.ModElement {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("You've been struck by      You've been hit by      PAN!"));
+				list.add(new StringTextComponent("You've been struck by~ You've been hit by~ PAN!"));
 			}
 		}.setRegistryName("frying_pan"));
 	}
