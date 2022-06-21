@@ -5,22 +5,22 @@
     "renderType": 0,
     "texture": "pan",
     "customModelName": "Normal",
-    "name": "ORPHANOBLITERATOR",
+    "name": "Frying Pan",
     "specialInfo": [
-      "Obliterating Orphans since 2022"
+      "You've been struck by~ You've been hit by~ PAN!"
     ],
     "creativeTab": {
       "value": "CUSTOM:GalacticFactoryCore"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 10.0,
+    "efficiency": 15.0,
+    "attackSpeed": 30.0,
     "enchantability": 0,
-    "damageVsEntity": 99999.0,
-    "usageCount": 99999,
+    "damageVsEntity": 99998.0,
+    "usageCount": 0,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,

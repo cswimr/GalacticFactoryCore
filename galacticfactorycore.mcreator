@@ -31,12 +31,32 @@
       "registry_name": "galactic_king"
     },
     {
-      "name": "ORPHANOBLITERATOR",
+      "name": "FryingPan",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orphanobliterator"
+      "registry_name": "frying_pan"
+    },
+    {
+      "name": "FryingPanLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frying_pan_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -45,7 +65,7 @@
     "en_us": {
       "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
       "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
-      "item.galacticfactorycore.orphanobliterator": "ORPHANOBLITERATOR",
+      "item.galacticfactorycore.frying_pan": "Frying Pan",
       "itemGroup.tabgalactic_factory_core": "GalacticFactory Core",
       "advancements.galactic_king.title": "Galactic King",
       "advancements.galactic_king.descr": "Craft a Galactic Crown and speak with your psycologist afterwards.",
