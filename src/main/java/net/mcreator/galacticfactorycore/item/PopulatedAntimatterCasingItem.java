@@ -3,13 +3,19 @@ package net.mcreator.galacticfactorycore.item;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.galacticfactorycore.itemgroup.GalacticFactoryCoreItemGroup;
 import net.mcreator.galacticfactorycore.GalacticfactorycoreModElements;
+
+import java.util.List;
 
 @GalacticfactorycoreModElements.ModElement.Tag
 public class PopulatedAntimatterCasingItem extends GalacticfactorycoreModElements.ModElement {
@@ -44,6 +50,12 @@ public class PopulatedAntimatterCasingItem extends GalacticfactorycoreModElement
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
+		}
+
+		@Override
+		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("Current texture is a placeholder."));
 		}
 	}
 }

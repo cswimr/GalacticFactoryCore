@@ -40,7 +40,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:GalacticCrown.helmet"
     },
-    "name": "compressed_antimatter_recipe",
+    "name": "antimatter_orb_recipe",
     "namespace": "mod"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "galacticfactorycore:items/pan"
+    "layer0": "galacticfactorycore:items/placeholder"
   }
 }
