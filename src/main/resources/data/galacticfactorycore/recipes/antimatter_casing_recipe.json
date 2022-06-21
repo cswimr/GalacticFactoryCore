@@ -1,0 +1,42 @@
+{
+  "group": "helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "1": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "2": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "3": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "4": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "5": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "6": {
+      "item": "mekanism:ultimate_chemical_tank"
+    },
+    "7": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "8": {
+      "item": "mekanism:ultimate_chemical_tank"
+    }
+  },
+  "result": {
+    "item": "galacticfactorycore:antimatter_casing",
+    "count": 1
+  }
+}

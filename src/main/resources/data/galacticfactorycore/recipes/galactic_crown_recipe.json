@@ -1,0 +1,42 @@
+{
+  "group": "helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "galacticfactorycore:populated_antimatter_casing"
+    },
+    "1": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "2": {
+      "item": "galacticfactorycore:populated_antimatter_casing"
+    },
+    "3": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "4": {
+      "item": "projectexpansion:colossal_star_omega"
+    },
+    "5": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "6": {
+      "item": "galacticfactorycore:populated_antimatter_casing"
+    },
+    "7": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "8": {
+      "item": "galacticfactorycore:populated_antimatter_casing"
+    }
+  },
+  "result": {
+    "item": "galacticfactorycore:galactic_crown_helmet",
+    "count": 1
+  }
+}

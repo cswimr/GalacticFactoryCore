@@ -1,0 +1,42 @@
+{
+  "group": "helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "1": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "2": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "3": {
+      "item": "dmekanism:pellet_antimatter"
+    },
+    "4": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "5": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "6": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "7": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "8": {
+      "item": "mekanism:pellet_antimatter"
+    }
+  },
+  "result": {
+    "item": "galacticfactorycore:compressed_antimatter",
+    "count": 1
+  }
+}

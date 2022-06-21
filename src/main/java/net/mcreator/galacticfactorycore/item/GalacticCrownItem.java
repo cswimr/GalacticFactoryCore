@@ -46,12 +46,12 @@ public class GalacticCrownItem extends GalacticfactorycoreModElements.ModElement
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 0;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 0, 0, 0}[slot.getIndex()];
+				return new int[]{0, 0, 0, 3}[slot.getIndex()];
 			}
 
 			@Override
@@ -77,12 +77,12 @@ public class GalacticCrownItem extends GalacticfactorycoreModElements.ModElement
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 3f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD,

@@ -4,10 +4,10 @@ package net.mcreator.galacticfactorycore.itemgroup;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
+import net.mcreator.galacticfactorycore.item.GalacticCrownItem;
 import net.mcreator.galacticfactorycore.GalacticfactorycoreModElements;
 
 @GalacticfactorycoreModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class GalacticFactoryCoreItemGroup extends GalacticfactorycoreModElements
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Items.END_CRYSTAL);
+				return new ItemStack(GalacticCrownItem.helmet);
 			}
 
 			@OnlyIn(Dist.CLIENT)
