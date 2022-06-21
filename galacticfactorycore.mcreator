@@ -81,6 +81,54 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "galactic_crown_recipe"
+    },
+    {
+      "name": "AntimatterCasing",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antimatter_casing"
+    },
+    {
+      "name": "PopulatedAntimatterCasing",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "populated_antimatter_casing"
+    },
+    {
+      "name": "CompressedAntimatter",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_antimatter"
+    },
+    {
+      "name": "AntimatterCasingRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "antimatter_casing_recipe"
+    },
+    {
+      "name": "PopulatedAntimatterCasingRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "populated_antimatter_casing_recipe"
+    },
+    {
+      "name": "CompressedAntimatterRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "compressed_antimatter_recipe"
     }
   ],
   "variable_elements": [],
@@ -88,13 +136,16 @@
   "language_map": {
     "en_us": {
       "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
+      "item.galacticfactorycore.populated_antimatter_casing": "Populated Antimatter Casing",
       "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
       "item.galacticfactorycore.frying_pan": "Frying Pan",
       "itemGroup.tabgalactic_factory_core": "GalacticFactory Core",
       "advancements.galactic_king.title": "Galactic King",
       "advancements.galactic_king.descr": "Craft a Galactic Crown and speak with your psycologist afterwards.",
+      "item.galacticfactorycore.antimatter_casing": "Antimatter Casing",
       "item.galacticfactorycore.galactic_crown_leggings": "Galactic Crown Leggings",
-      "item.galacticfactorycore.galactic_crown_helmet": "Galactic Crown"
+      "item.galacticfactorycore.galactic_crown_helmet": "Galactic Crown",
+      "item.galacticfactorycore.compressed_antimatter": "Compressed Antimatter"
     }
   },
   "foldersRoot": {

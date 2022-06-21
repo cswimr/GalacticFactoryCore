@@ -11,32 +11,32 @@
       "item": "mekanism:pellet_antimatter"
     },
     "1": {
-      "item": "draconicevolution:chaotic_core"
+      "item": "mekanism:pellet_antimatter"
     },
     "2": {
       "item": "mekanism:pellet_antimatter"
     },
     "3": {
-      "item": "draconicevolution:chaotic_core"
+      "item": "dmekanism:pellet_antimatter"
     },
     "4": {
-      "item": "projectexpansion:colossal_star_omega"
+      "item": "mekanism:pellet_antimatter"
     },
     "5": {
-      "item": "draconicevolution:chaotic_core"
+      "item": "mekanism:pellet_antimatter"
     },
     "6": {
       "item": "mekanism:pellet_antimatter"
     },
     "7": {
-      "item": "draconicevolution:chaotic_core"
+      "item": "mekanism:pellet_antimatter"
     },
     "8": {
       "item": "mekanism:pellet_antimatter"
     }
   },
   "result": {
-    "item": "galacticfactorycore:galactic_crown_helmet",
+    "item": "galacticfactorycore:compressed_antimatter",
     "count": 1
   }
 }

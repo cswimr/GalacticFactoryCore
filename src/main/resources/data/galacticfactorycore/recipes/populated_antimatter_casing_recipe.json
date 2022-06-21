@@ -1,0 +1,42 @@
+{
+  "group": "helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "1": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "2": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "3": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "4": {
+      "item": "galacticfactorycore:antimatter_casing"
+    },
+    "5": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "6": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "7": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    },
+    "8": {
+      "item": "galacticfactorycore:compressed_antimatter"
+    }
+  },
+  "result": {
+    "item": "galacticfactorycore:populated_antimatter_casing",
+    "count": 1
+  }
+}
