@@ -135,8 +135,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
       "item.galacticfactorycore.antimatter_orb": "Antimatter Orb",
+      "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
       "item.galacticfactorycore.populated_antimatter_casing": "Populated Antimatter Casing",
       "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
       "item.galacticfactorycore.frying_pan": "Frying Pan",
