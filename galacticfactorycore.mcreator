@@ -115,20 +115,20 @@
       "registry_name": "populated_antimatter_casing_recipe"
     },
     {
-      "name": "CompressedAntimatterRecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "compressed_antimatter_recipe"
-    },
-    {
       "name": "AntimatterOrb",
       "type": "item",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antimatter_orb"
+    },
+    {
+      "name": "AntimatterOrbRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "antimatter_orb_recipe"
     }
   ],
   "variable_elements": [],

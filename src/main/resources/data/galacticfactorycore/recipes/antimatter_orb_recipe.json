@@ -17,7 +17,7 @@
       "item": "mekanism:pellet_antimatter"
     },
     "3": {
-      "item": "dmekanism:pellet_antimatter"
+      "item": "mekanism:pellet_antimatter"
     },
     "4": {
       "item": "mekanism:pellet_antimatter"
@@ -36,7 +36,7 @@
     }
   },
   "result": {
-    "item": "galacticfactorycore:compressed_antimatter",
+    "item": "galacticfactorycore:antimatter_orb",
     "count": 1
   }
 }
