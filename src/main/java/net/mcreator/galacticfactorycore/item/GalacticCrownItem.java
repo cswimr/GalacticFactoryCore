@@ -81,7 +81,7 @@ public class GalacticCrownItem extends GalacticfactorycoreModElements.ModElement
 				new Item.Properties().group(GalacticFactoryCoreItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "galacticfactorycore:textures/models/armor/galacticcrowntemp_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "galacticfactorycore:textures/models/armor/diamond__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("galactic_crown_helmet"));
 	}

@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "galacticcrowntemp_head",
+    "textureHelmet": "diamond_helmet",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:GalacticFactoryCore"
     },
-    "armorTextureFile": "galacticcrowntemp",
+    "armorTextureFile": "diamond_",
     "helmetName": "Galactic Crown",
     "bodyName": "Galactic Crown Body",
     "leggingsName": "Galactic Crown Leggings",
