@@ -12,12 +12,12 @@ import net.mcreator.galacticfactorycore.itemgroup.GalacticFactoryCoreItemGroup;
 import net.mcreator.galacticfactorycore.GalacticfactorycoreModElements;
 
 @GalacticfactorycoreModElements.ModElement.Tag
-public class CompressedAntimatterItem extends GalacticfactorycoreModElements.ModElement {
-	@ObjectHolder("galacticfactorycore:compressed_antimatter")
+public class AntimatterOrbItem extends GalacticfactorycoreModElements.ModElement {
+	@ObjectHolder("galacticfactorycore:antimatter_orb")
 	public static final Item block = null;
 
-	public CompressedAntimatterItem(GalacticfactorycoreModElements instance) {
-		super(instance, 9);
+	public AntimatterOrbItem(GalacticfactorycoreModElements instance) {
+		super(instance, 13);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class CompressedAntimatterItem extends GalacticfactorycoreModElements.Mod
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(GalacticFactoryCoreItemGroup.tab).maxStackSize(64).rarity(Rarity.RARE));
-			setRegistryName("compressed_antimatter");
+			setRegistryName("antimatter_orb");
 		}
 
 		@Override

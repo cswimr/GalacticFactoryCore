@@ -1,13 +1,13 @@
 {
   "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
-  "item.galacticfactorycore.populated_antimatter_casing": "Populated Antimatter Casing",
-  "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
-  "item.galacticfactorycore.frying_pan": "Frying Pan",
-  "itemGroup.tabgalactic_factory_core": "GalacticFactory Core",
+  "item.galacticfactorycore.antimatter_orb": "Antimatter Orb",
   "advancements.galactic_king.title": "Galactic King",
   "advancements.galactic_king.descr": "Craft a Galactic Crown and speak with your psycologist afterwards.",
   "item.galacticfactorycore.antimatter_casing": "Antimatter Casing",
   "item.galacticfactorycore.galactic_crown_leggings": "Galactic Crown Leggings",
   "item.galacticfactorycore.galactic_crown_helmet": "Galactic Crown",
-  "item.galacticfactorycore.compressed_antimatter": "Compressed Antimatter"
+  "item.galacticfactorycore.populated_antimatter_casing": "Populated Antimatter Casing",
+  "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
+  "item.galacticfactorycore.frying_pan": "Frying Pan",
+  "itemGroup.tabgalactic_factory_core": "GalacticFactory Core"
 }
