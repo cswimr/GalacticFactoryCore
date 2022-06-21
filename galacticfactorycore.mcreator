@@ -73,6 +73,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "GalacticCrownRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "galactic_crown_recipe"
     }
   ],
   "variable_elements": [],
