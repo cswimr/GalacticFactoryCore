@@ -2,6 +2,8 @@
   "item.galacticfactorycore.galactic_crown_chestplate": "Galactic Crown Body",
   "item.galacticfactorycore.galactic_crown_boots": "Galactic Crown Boots",
   "itemGroup.tabgalactic_factory_core": "GalacticFactory Core",
+  "advancements.galactic_king.title": "Galactic King",
+  "advancements.galactic_king.descr": "Craft a Galactic Crown and speak with your psycologist afterwards.",
   "item.galacticfactorycore.galactic_crown_leggings": "Galactic Crown Leggings",
   "item.galacticfactorycore.galactic_crown_helmet": "Galactic Crown"
 }
