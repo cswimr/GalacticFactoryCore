@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Frying Pan",
     "specialInfo": [
-      "You've been struck by You've been hit by PAN!"
+      "You've been struck by      You've been hit by      PAN!"
     ],
     "creativeTab": {
       "value": "CUSTOM:GalacticFactoryCore"

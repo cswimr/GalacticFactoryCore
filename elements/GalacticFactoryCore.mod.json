@@ -4,7 +4,7 @@
   "definition": {
     "name": "GalacticFactory Core",
     "icon": {
-      "value": "Items.END_CRYSTAL"
+      "value": "CUSTOM:GalacticCrown.helmet"
     },
     "showSearch": false
   }
