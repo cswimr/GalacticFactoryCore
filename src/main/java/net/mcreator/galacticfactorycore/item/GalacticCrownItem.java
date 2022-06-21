@@ -51,7 +51,7 @@ public class GalacticCrownItem extends GalacticfactorycoreModElements.ModElement
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{0, 0, 0, 3}[slot.getIndex()];
+				return new int[]{0, 0, 0, 40}[slot.getIndex()];
 			}
 
 			@Override
