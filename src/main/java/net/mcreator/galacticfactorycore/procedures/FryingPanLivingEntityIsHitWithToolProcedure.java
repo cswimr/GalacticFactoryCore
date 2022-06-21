@@ -1,6 +1,22 @@
 package net.mcreator.galacticfactorycore.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.fml.server.ServerLifecycleHooks;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ChatType;
+import net.minecraft.util.Util;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.tags.EntityTypeTags;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.galacticfactorycore.GalacticfactorycoreMod;
+
+import java.util.Map;
 
 public class FryingPanLivingEntityIsHitWithToolProcedure {
 
@@ -15,10 +31,8 @@ public class FryingPanLivingEntityIsHitWithToolProcedure {
 				GalacticfactorycoreMod.LOGGER.warn("Failed to load dependency entity for procedure FryingPanLivingEntityIsHitWithTool!");
 			return;
 		}
-
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (EntityTypeTags.getCollection().getTagByID(new ResourceLocation("entityplayermp")).contains(entity.getType())) {
 			if (!world.isRemote()) {
 				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
@@ -26,7 +40,6 @@ public class FryingPanLivingEntityIsHitWithToolProcedure {
 					mcserv.getPlayerList().func_232641_a_(new StringTextComponent("YOU'VE BEEN HIT BY"), ChatType.SYSTEM, Util.DUMMY_UUID);
 			}
 			new Object() {
-
 				private int ticks = 0;
 				private float waitTicks;
 				private IWorld world;
@@ -54,10 +67,8 @@ public class FryingPanLivingEntityIsHitWithToolProcedure {
 					}
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
-
 			}.start(world, (int) 10);
 			new Object() {
-
 				private int ticks = 0;
 				private float waitTicks;
 				private IWorld world;
@@ -85,9 +96,7 @@ public class FryingPanLivingEntityIsHitWithToolProcedure {
 					}
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
-
 			}.start(world, (int) 10);
 		}
 	}
-
 }
