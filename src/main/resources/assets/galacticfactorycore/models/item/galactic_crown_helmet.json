@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "galacticfactorycore:items/galacticcrowntemp_head"
+    "layer0": "galacticfactorycore:items/galacticcrownitemtexture"
   }
 }

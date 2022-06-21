@@ -3,7 +3,7 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "galacticcrowntemp_head",
+    "textureHelmet": "galacticcrownitemtexture",
     "enableBody": false,
     "textureBody": "",
     "enableLeggings": false,
